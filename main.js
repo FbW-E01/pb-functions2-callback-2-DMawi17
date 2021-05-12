@@ -6,9 +6,9 @@
 
 const array = [1, 2, 3, 4, 5, 6];
 
-const square = (arr) => {
+const square = (arr, fn) => {
     for (const n of arr) {
-        console.log(squareNumber(n));
+        console.log(fn(n));
     }
 };
 
